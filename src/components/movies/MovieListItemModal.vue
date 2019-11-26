@@ -123,12 +123,12 @@ export default {
   },
   mounted() {
     // 영화가 가지고 있는 리뷰들을 가져와서,
-    axios
-      .get("")
-      .then(res => {
-        // 가져왔으면, 그 데이터를 현재 data의 reviews에 저장.
-      })
-      .catch(err => console.log(err));
+  //   axios
+  //     .get("")
+  //     .then(res => {
+  //       // 가져왔으면, 그 데이터를 현재 data의 reviews에 저장.
+  //     })
+  //     .catch(err => console.log(err));
   }
 };
 </script>
